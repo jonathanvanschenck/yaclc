@@ -1,0 +1,32 @@
+{
+  "name": "yaclc",
+  "version": "1.0.0",
+  "description": "Yet Another Command Line Colorizer",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint lib index.js || true",
+    "lint:fix": "npx eslint --fix lib index.js || true",
+    "build": "node scripts/build_docs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanvanschenck/yaclc.git"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "Jonathan D. B. Van Schenck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanvanschenck/yaclc/issues"
+  },
+  "homepage": "https://github.com/jonathanvanschenck/yaclc#readme",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2",
+    "eslint": "^8.30.0",
+    "eslint-plugin-jsdoc": "^39.6.4",
+    "eslint-plugin-node": "^11.1.0",
+    "jsdoc-to-markdown": "^8.0.0"
+  }
+}
