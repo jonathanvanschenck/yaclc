@@ -1,6 +1,6 @@
 {
   "name": "yaclc",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Yet Another Command Line Colorizer",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/jonathanvanschenck/yaclc.git"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=12"
   },
   "author": "Jonathan D. B. Van Schenck",
   "license": "MIT",
